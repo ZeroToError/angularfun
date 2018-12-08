@@ -1,0 +1,19 @@
+table tr td {
+  border: 1px solid pink;
+}
+table {
+  border-collapse: collapse;
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+}

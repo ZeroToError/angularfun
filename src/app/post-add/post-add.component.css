@@ -1,0 +1,24 @@
+.form {
+  width: 600px;
+  margin: auto;
+  font-size: 30px;
+}
+table {
+  width: 100%;
+  margin: auto;
+}
+
+.submit {
+  padding: 10px;
+  background: lawngreen;
+  color: white;
+  font-weight: bold;
+}
+
+
+.cancel {
+  padding: 10px;
+  background: orangered;
+  color: white;
+  font-weight: bold;
+}

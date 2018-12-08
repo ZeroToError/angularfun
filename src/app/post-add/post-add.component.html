@@ -1,0 +1,24 @@
+
+<form class="form">
+  <h1>Add new Post</h1>
+
+  <table>
+    <tr>
+      <td>Image: </td>
+      <td><input type="text" placeholder="Image" [(ngModel)]="post.image" name="image"></td>
+    </tr>
+    <tr>
+      <td>Title: </td>
+      <td><input type="text" placeholder="Title" [(ngModel)]="post.title" name="title"></td>
+    </tr>
+    <tr>
+      <td>Content: </td>
+      <td><textarea type="text" placeholder="Content" [(ngModel)]="post.content" name="content"></textarea></td>
+    </tr>
+  </table>
+
+  <div>
+    <button class="submit" (click)="addNewPost()">Submit</button>
+    <button class="cancel">Cancel</button>
+  </div>
+</form>
